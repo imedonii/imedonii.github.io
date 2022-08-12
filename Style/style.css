@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+
+/* Title Style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+/* Icon and Span text Style */
+span,
+i {
+  color: #ff6000;
+}
+
+/* Buttons style */
+.btn-primary {
+  background-color: transparent;
+  color: #ff6000;
+  border-radius: 50%;
+  padding: 15px 25px 15px 25px;
+  transition: all 0.35s;
+  /* width: ; */
+}
+
+.btn-secondary {
+  background-color: #ff6000;
+  color: white;
+  border-radius: 50%;
+  padding: 15px 25px 15px 25px;
+  transition: all 0.35s;
+  /* width: ; */
+}
+
+button:hover {
+  font-size: 18px;
+}
+
+/* Line Style */
+hr {
+  background-color: #ff6000;
+  height: 10px;
+  width: 100%;
+}
+
+/* ------------------------ */
