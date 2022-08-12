@@ -48,4 +48,9 @@ hr {
   width: 100%;
 }
 
+.width-page {
+  width: 75%;
+  margin: 0 auto;
+}
+
 /* ------------------------ */
