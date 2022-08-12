@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  box-sizing: border-box;
 }
 
 /* Title Style */
@@ -21,24 +22,32 @@ i {
 /* Buttons style */
 .btn-primary {
   background-color: transparent;
+  border: 1px solid #ff6000;
   color: #ff6000;
-  border-radius: 50%;
+  border-radius: 50px;
   padding: 15px 25px 15px 25px;
-  transition: all 0.35s;
-  /* width: ; */
+  width: 200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .btn-secondary {
   background-color: #ff6000;
   color: white;
-  border-radius: 50%;
+  border-radius: 50px;
   padding: 15px 25px 15px 25px;
+  width: 200px;
+}
+
+button {
   transition: all 0.35s;
-  /* width: ; */
 }
 
 button:hover {
-  font-size: 18px;
+  letter-spacing: 3px;
 }
 
 /* Line Style */
