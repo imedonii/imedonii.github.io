@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: black;
   box-sizing: border-box;
 }
@@ -53,12 +55,12 @@ button:hover {
 /* Line Style */
 hr {
   background-color: #ff6000;
+  border: none;
   height: 10px;
-  width: 100%;
 }
 
 .width-page {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 
