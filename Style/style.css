@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: black;
   box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Title Style */
@@ -16,9 +17,21 @@ h6 {
 }
 
 /* Icon and Span text Style */
-span,
-i {
+span {
   color: #ff6000;
+}
+
+.lang {
+  margin-top: 20px;
+}
+
+.lang i {
+  color: white;
+}
+
+.lang h1 {
+  display: inline;
+  margin-left: 20px;
 }
 
 /* Buttons style */
@@ -60,8 +73,32 @@ hr {
 }
 
 .width-page {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
+.active {
+  color: #ff6000;
+  font-weight: bold;
+}
+
 /* ------------------------ */
+.logo {
+  font-size: 20px;
+  display: inline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  margin-left: -100px;
+  margin-top: 25px;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 50px;
+}
