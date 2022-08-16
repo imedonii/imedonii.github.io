@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1600px) {
+  .repoNav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 720px) {
+  .burgerMenu {
+    margin-top: 20px;
+  }
+  .repoNav {
+    display: flex;
+  }
+  .repoNav.square {
+    display: inline;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+}
