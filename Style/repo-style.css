@@ -60,6 +60,17 @@
   .bio {
     top: 500px;
   }
+
+  .container {
+    font-size: 9px;
+    top: 30%;
+    left: 10%;
+  }
+
+  .backBtn {
+    bottom: 50%;
+    left: 21%;
+  }
 }
 
 @media only screen and (max-width: 280px) {
