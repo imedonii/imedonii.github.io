@@ -39,6 +39,7 @@ h2 {
   text-shadow: 0px 0px 4px #12000a;
   animation: fadeInText 3s ease-in 3.5s forwards,
     flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite;
+  opacity: 0;
 }
 
 #svgWrap_1,
@@ -262,14 +263,17 @@ div {
 
 @keyframes fadeInText {
   1% {
+    opacity: 0.5;
     color: #12000a;
     text-shadow: 0px 0px 4px #12000a;
   }
   70% {
+    opacity: 1;
     color: #ff6000;
     text-shadow: 0px 0px 14px #ff6000;
   }
   100% {
+    opacity: 1;
     color: #ff6000;
     text-shadow: 0px 0px 4px #ff6000;
   }
