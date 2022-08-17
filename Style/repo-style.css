@@ -11,15 +11,54 @@
   .burgerMenu {
     margin-top: 20px;
   }
+
   .repoNav {
     display: flex;
   }
+
+  .respo-menu {
+    justify-content: space-around;
+    margin-top: -30px;
+  }
+
   .repoNav.square {
     display: inline;
   }
 
+  .respo-menu ul li a {
+    margin-left: -20px;
+  }
+
   .menu {
     display: none;
+  }
+
+  /* Main */
+  .letsBring {
+    top: 200px;
+    left: 50px;
+  }
+
+  .circle {
+    height: 250px;
+    width: 250px;
+    left: 0;
+  }
+
+  .photo img {
+    top: 200px;
+    position: absolute;
+    height: 300px;
+  }
+
+  .hrSect1 {
+    position: absolute;
+    top: 290px;
+    height: 5px;
+  }
+
+  .bio {
+    top: 500px;
   }
 }
 
