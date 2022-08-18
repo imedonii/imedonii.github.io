@@ -135,6 +135,29 @@
     top: -40px;
     opacity: 1;
   }
+
+  .cardBox {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .box-categories {
+    flex-direction: column;
+  }
+
+  .cardBox h1,
+  .cardBox p {
+    width: 200px;
+  }
+
+  .cardBox:nth-child(2) p {
+    margin-top: -10px;
+  }
+
+  .cardBox a {
+    left: 160px;
+    /* bottom: 30px; */
+  }
 }
 
 @media only screen and (max-width: 280px) {

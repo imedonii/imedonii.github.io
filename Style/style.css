@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-color: #222222; */
   background-color: black;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -64,11 +63,14 @@ a {
   width: 200px;
 }
 
-button {
+button,
+a span {
+  cursor: pointer;
   transition: all 0.35s;
 }
 
-button:hover {
+button:hover,
+a:hover span {
   letter-spacing: 3px;
 }
 
@@ -301,6 +303,7 @@ nav {
 .content {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .content .text {
@@ -372,4 +375,65 @@ nav {
   height: 1px;
   width: 510px;
   opacity: 0.2;
+}
+
+/* Card Box */
+.box-categories {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardBox {
+  background-color: #151515;
+  border-radius: 50px;
+  height: 450px;
+  width: 30%;
+}
+
+.cardBox .icon {
+  display: flex;
+}
+
+.cardBox .icon > div {
+  height: 100px;
+  width: 100px;
+  background-color: #4b4b4b;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.cardBox .icon div .i i {
+  color: #ff6000;
+  font-size: 40px;
+  margin: 30px;
+}
+
+.cardBox:nth-child(2) .icon div .i i {
+  margin-left: 25px;
+}
+.cardBox:nth-child(3) .icon div .i i {
+  margin-left: 35px;
+}
+
+.cardBox h1 {
+  margin-left: 30px;
+  letter-spacing: 3px;
+}
+
+.cardBox p {
+  color: #7a7a7a;
+  margin-left: 30px;
+  font-size: 17pt;
+  width: 300px;
+}
+
+.cardBox a {
+  position: relative;
+  left: 210px;
+}
+
+.cardBox a img {
+  position: relative;
+  top: 10px;
 }
