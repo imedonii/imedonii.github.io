@@ -18,7 +18,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   color: white;
 }
 
@@ -243,7 +244,7 @@ nav {
 
 .photo img {
   height: 500px;
-  margin-bottom: -10px;
+  margin-bottom: -12px;
 }
 
 .bio {
@@ -294,4 +295,81 @@ nav {
 
 .letsBring h3:nth-child(2) {
   letter-spacing: 1px;
+}
+
+/* content */
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content .text {
+  width: 45%;
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+
+.content .text h1:first-child {
+  margin-top: 100px;
+  margin-bottom: -50px;
+}
+
+.content .text h1:nth-child(2) {
+  margin-bottom: -20px;
+}
+
+.content .text hr {
+  position: absolute;
+  left: 10%;
+  width: 300px;
+  height: 5px;
+}
+
+.content .text p {
+  margin-top: 50px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.categories {
+  width: 50%;
+}
+
+.categories .categ:first-child {
+  margin-top: 100px;
+}
+
+.categories .categ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.categories .categ h3 {
+  width: 300px;
+}
+
+.categories .categ img {
+  height: 80px;
+  width: 80px;
+}
+
+.categ .direc {
+  margin-top: -5px;
+}
+
+.categ .direc a img {
+  position: relative;
+  top: 4px;
+  width: 15px;
+  height: 15px;
+}
+
+.catHr {
+  position: relative;
+  left: 50px;
+  height: 1px;
+  width: 510px;
+  opacity: 0.2;
 }
