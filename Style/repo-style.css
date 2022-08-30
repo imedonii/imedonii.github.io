@@ -158,6 +158,56 @@
     left: 160px;
     /* bottom: 30px; */
   }
+
+  .portofolioBox {
+    min-width: 300px;
+    max-width: 300px;
+  }
+
+  .portofolioBox img {
+    height: 300px;
+    width: 280px;
+  }
+
+  .aboutMe {
+    height: 800px;
+  }
+
+  .aboutMe span i {
+    margin-left: 130px;
+  }
+
+  .part-one {
+    width: 65%;
+  }
+
+  .part-one img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .part-two {
+    margin-top: 200px;
+    right: 50px;
+    width: 100%;
+    height: 420px;
+  }
+
+  .part-two p {
+    font-size: 19px;
+  }
+
+  .prev {
+    top: -100px;
+  }
+
+  .next {
+    top: -100px;
+  }
+
+  .aboutMe hr {
+    margin-top: 450px;
+  }
 }
 
 @media only screen and (max-width: 280px) {
