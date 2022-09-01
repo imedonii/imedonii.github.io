@@ -208,6 +208,63 @@
   .aboutMe hr {
     margin-top: 450px;
   }
+
+  .myDesc {
+    margin-top: 450px;
+  }
+
+  .aboutMe {
+    padding-bottom: 0;
+    height: 700px;
+  }
+
+  .myDesc h1 {
+    font-size: 40px;
+    width: 300px;
+  }
+
+  .myDesc h1:nth-child(2) {
+    margin-top: 70px;
+  }
+
+  .myDesc p {
+    width: 300px;
+  }
+
+  .myDesc a:nth-child(2) button {
+    margin-top: 20px;
+  }
+
+  .myPic {
+    display: none;
+  }
+
+  #hrHire {
+    margin-top: 600px;
+  }
+
+  .social-Icon {
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .social-Icon:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .social-Icon a i {
+    margin-top: 4px;
+    margin-left: 7px;
+    font-size: 20px;
+  }
+
+  .social-Icon:nth-child(3) a i {
+    margin-left: 5px;
+  }
+  .social-Icon:nth-child(4) a i {
+    margin-left: 6px;
+  }
 }
 
 @media only screen and (max-width: 280px) {

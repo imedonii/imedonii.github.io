@@ -11,6 +11,22 @@ body {
   display: none !important;
 }
 
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff6000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c45002;
+}
+
 /* Title Style */
 h1,
 h2,
@@ -497,7 +513,8 @@ nav {
 .aboutMe {
   margin-top: 30px;
   background-color: #151515;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  /* padding-bottom: 30px; */
   /* height: 500px; */
 }
 
@@ -619,4 +636,39 @@ nav {
   height: 250px;
   margin-left: 300px;
   margin-top: -150px;
+}
+
+#hrHire {
+  margin-top: 350px;
+}
+
+/* Footer */
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.social-Icon {
+  border: 2px solid #ff6000;
+  border-radius: 50%;
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.social-Icon a i {
+  /* display: flex; */
+  color: #ff6000;
+  margin-top: 10px;
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.social-Icon:nth-child(3) a i {
+  margin-left: 8px;
+}
+.social-Icon:nth-child(4) a i {
+  margin-left: 10px;
 }
