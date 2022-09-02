@@ -118,6 +118,10 @@ nav {
   justify-content: space-between;
 }
 
+.repoNav {
+  display: none;
+}
+
 .navbar ul,
 .respo-menu ul {
   margin-left: -90px;
