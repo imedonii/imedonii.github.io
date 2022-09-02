@@ -265,6 +265,27 @@
   .social-Icon:nth-child(4) a i {
     margin-left: 6px;
   }
+
+  .footer {
+    display: block;
+  }
+
+  .footer .col {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .footer .col:nth-child(1) {
+    width: 100%;
+  }
+
+  .footer .col:nth-child(1),
+  .footer .col:nth-child(2),
+  .footer .col:nth-child(3) {
+    border-right: none;
+    border-bottom: 1px solid #ff6000;
+    padding-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 280px) {
