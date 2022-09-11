@@ -283,6 +283,30 @@
     border-bottom: 1px solid #ff6000;
     padding-bottom: 30px;
   }
+
+  .header .circle {
+    top: 100px;
+    left: 70px;
+  }
+
+  .header .photo {
+    margin-top: 1200px;
+    margin-left: 40px;
+  }
+
+  .header .bio {
+    right: 30px;
+    left: 35px;
+  }
+
+  .header .bio p {
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .header .photo img {
+    margin-top: -50px;
+  }
 }
 
 @media only screen and (max-width: 280px) {

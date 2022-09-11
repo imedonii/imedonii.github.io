@@ -743,3 +743,55 @@ nav {
   outline: white;
   margin-bottom: 20px;
 }
+
+/* About Me Page */
+
+/* header */
+
+.header .circle {
+  top: 160px;
+  left: 150px;
+}
+
+.header .photo {
+  margin-top: 140px;
+  margin-left: 20px;
+}
+
+.header .bio {
+  right: 150px;
+}
+
+.header .bio h3 {
+  border-bottom: 1px solid #ff6000;
+  font-size: 22px;
+}
+
+.header .bio p {
+  width: 710px;
+  font-size: 20px;
+}
+
+/* Section mySelf */
+.mySelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.mySelf .aboutMySelf {
+  width: 370px;
+}
+
+.mySelf .aboutMySelf h1 {
+  border-bottom: 1px solid #ff6000;
+}
+
+#aboutLine {
+  margin-top: 100px;
+}
+
+.mySelf h1 {
+  font-size: 22px;
+}
