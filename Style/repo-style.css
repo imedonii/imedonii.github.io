@@ -307,6 +307,11 @@
   .header .photo img {
     margin-top: -50px;
   }
+
+  .timeline .card {
+    position: relative;
+    max-width: 300px;
+  }
 }
 
 @media only screen and (max-width: 280px) {
