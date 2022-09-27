@@ -5,6 +5,10 @@
 }
 
 @media only screen and (max-width: 720px) {
+  * {
+    border: none;
+  }
+
   .burgerMenu {
     margin-top: 20px;
   }
