@@ -139,7 +139,7 @@
 
   .cardBox {
     margin-top: 30px;
-    width: 100%;
+    max-width: 100%;
   }
 
   .box-categories {
@@ -156,7 +156,6 @@
   }
 
   .cardBox a {
-    left: 160px;
     bottom: 0;
   }
 
