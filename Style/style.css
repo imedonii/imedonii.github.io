@@ -301,7 +301,8 @@ nav {
   position: absolute;
   width: 150px;
   right: 200px;
-  bottom: 100px;
+  /* bottom: 100px; */
+  top: 500px;
 }
 
 .letsBring h1 {
@@ -451,6 +452,7 @@ nav {
 .cardBox a {
   position: relative;
   left: 210px;
+  bottom: 0;
 }
 
 .cardBox a img {
