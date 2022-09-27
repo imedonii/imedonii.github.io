@@ -445,6 +445,7 @@ nav {
 }
 
 .cardBox p {
+  margin-top: 0;
   color: #7a7a7a;
   margin-left: 30px;
   font-size: 17pt;
