@@ -2,6 +2,42 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .categories .categ img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .categ .direc {
+    margin-top: 0px;
+  }
+
+  .categories .categ h3 {
+    width: 200px;
+  }
+
+  .catHr {
+    right: 0px;
+    width: 400px;
+  }
+
+  .part-two p {
+    max-width: 400px;
+  }
+
+  .myDesc .circle {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 200px;
+    top: 80px;
+  }
+
+  .myDesc .myPic img {
+    width: 300px;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: -150px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
