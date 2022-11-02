@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: black;
   box-sizing: border-box;
-
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   overflow-x: hidden;
 }
 
@@ -843,6 +843,7 @@ nav {
   position: absolute;
   width: 50%;
   border: solid #ff6000;
+  z-index: -1;
 }
 
 /* Setting the border of top, bottom, left */
@@ -894,12 +895,21 @@ nav {
   color: gray;
   border-radius: 50px;
   padding: 10px;
+  z-index: 999;
 }
 
 .timeline .info h5 {
   color: white;
   margin-top: -17px;
   margin-bottom: 0;
+}
+
+.timeline .info p {
+  font-size: 12px;
+}
+
+.timeline .info a {
+  color: #ff6000;
 }
 
 /* Title of the card */
