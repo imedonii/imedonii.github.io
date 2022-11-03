@@ -42,6 +42,9 @@
   .header .bio p {
     width: 510px;
   }
+  .cardBox .showMore {
+    margin-top: 0px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -350,6 +353,10 @@
   .timeline .card {
     position: relative;
     max-width: 300px;
+  }
+
+  .cardBox .showMore {
+    margin-top: 0px;
   }
 }
 
