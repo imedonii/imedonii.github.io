@@ -45,6 +45,10 @@
   .cardBox .showMore {
     margin-top: 0px;
   }
+
+  .projectsBox .box {
+    margin-right: 0px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -357,6 +361,18 @@
 
   .cardBox .showMore {
     margin-top: 0px;
+  }
+
+  .selectCategory h3 {
+    margin: 30px 15px;
+  }
+
+  .selectCategory {
+    display: block;
+  }
+
+  .grip {
+    margin-top: 10px;
   }
 }
 

@@ -89,8 +89,28 @@
     </nav>
 
     <!-- Content -->
-
-    <div class="timeline" id="portofolioPage">
+    
+    <!--  -->
+    <section class="grip width-page">
+        <div>
+          <section class="selectCategory">
+            <h3 class="h31 selectedCtg">All</h3>
+            <h3 class="h32">Design</h2>
+            <h3 class="h33">FrontEnd</h2>
+              <h3 class="h34">Java</h2>
+          </section>
+        </div>
+        <div class="gripIcon">
+              <div class="gripSquare">
+                <i class="fa-solid fa-ellipsis-vertical squares active"></i>
+                <i class="fa-solid fa-ellipsis-vertical squares active"></i>
+                <i class="fa-solid fa-ellipsis-vertical squares active"></i>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical line"></i>
+        </div>
+    </section>
+    <!--  -->
+    <div class="timeline hidden" id="portofolioPage">
         <div class="outer">
           <div class="card">
             <div class="info">
@@ -107,7 +127,7 @@
               <br>
             </div>
           </div>
-          <div class="card">
+          <div class="card design">
             <div class="info">
               <img src="Assests/Images/portofolio.webp" alt="">
               <h2 class="title">Portofolio</h2>
@@ -118,12 +138,11 @@
                 <a href="https://www.behance.net/gallery/156267345/Portofolio-Web-Design">
                   <i>https://www.behance.net/gallery/156267345/Portofolio-Web-Design</i>
                 </a>
-              <p>
-                <!--  -->
               </p>
+              <br>
             </div>
           </div>
-          <div class="card">
+          <div class="card java">
             <div class="info">
                 <img src="Assests/Images/komunat.webp" alt="">
                 <h2 class="title">City Search</h2>
@@ -140,6 +159,65 @@
           </div>
         </div>
       </div>
+
+      <!-- CARD PROJECTS -->
+      <section class="projectsBox width-page">
+        <div class="front">
+          <div class="box">
+            <div class="infos">
+              <img src="Assests/Images/movies.webp" alt="">
+              <h2 class="title"><a href="https://github.com/imedonii/Movies">Movie</a></h2>
+              <h5>Front End Develop</h5>
+              <p>
+                View the code:
+                <a href="https://github.com/imedonii/Movies">
+                  <i>https://github.com/imedonii/Movies</i>
+                </a>
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="design">
+          <div class="box">
+            <div class="infos">
+              <img src="Assests/Images/portofolio.webp" alt="">
+              <h2 class="title">Portofolio</h2>
+              <h5>Web Design</h5>
+              <!-- Description *OPTION* -->
+              <p>
+              View the design: <br>
+                <a href="https://www.behance.net/gallery/156267345/Portofolio-Web-Design">
+                  <i>https://www.behance.net/gallery/156267345/Portofolio-Web-Design</i>
+                </a>
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="java">
+          <div class="box">
+            <div class="infos">
+              <img src="Assests/Images/komunat.webp" alt="">
+                <h2 class="title">City Search</h2>
+                <h5>Java Desktop</h5>
+                <!-- Description *OPTION* -->
+                <p>
+                  View the code:
+                  <a href="https://github.com/imedonii/SearchForCitiesKs">
+                    <i>https://github.com/imedonii/SearchForCitiesKs</i>
+                  </a>
+                </p>
+                <br>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+      </section>
+
+      
 
     <!-- Footer -->
     <hr id="aboutLine">
@@ -217,4 +295,5 @@
     </footer>
   </body>
   <script src="Scripts/script.js"></script>
+  <script src="Scripts/portofolioFilter.js"></script>
 </html>

@@ -816,12 +816,10 @@ nav {
 :root {
   /* --primary-color: #151515; */
   --background-color: #151515;
-  --font: sans-serif;
 }
 
 .timeline {
   background: var(--background-color);
-  font-family: var(--font);
   display: flex;
   justify-content: center;
   background: var(--primary-color);
@@ -949,4 +947,94 @@ nav {
 /* setting dot to the right if the card is odd */
 .timeline .card:nth-child(even) > .info > .title::before {
   right: -45px;
+}
+
+.selectCategory {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.selectCategory h3 {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.selectedCtg {
+  color: #ff6000;
+  border-bottom: 1px solid #ff6000;
+}
+
+/* <!-- CARD PROJECTS --> */
+
+.projectsBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.projectsBox .box {
+  background-color: #333;
+  border-radius: 50px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.projectsBox .infos {
+  padding: 10px;
+}
+
+.projectsBox .infos img {
+  border-radius: 50px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.projectsBox .infos h5 {
+  color: white;
+  margin-top: -17px;
+  margin-bottom: 0;
+}
+
+.projectsBox .infos p {
+  font-size: 12px;
+}
+
+.projectsBox .infos a {
+  color: #ff6000;
+}
+
+/* ICONS GRIP */
+
+.grip {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gripIcon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.grip i {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.grip div .gripSquare {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.grip div i {
+  /* display: flex; */
+  margin-right: -2px;
+}
+
+.grip .active {
+  color: #ff6000;
 }
