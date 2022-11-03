@@ -760,6 +760,10 @@ nav {
   margin-bottom: 20px;
 }
 
+.col button {
+  display: block;
+}
+
 /* About Me Page */
 
 /* header */
@@ -792,12 +796,13 @@ nav {
 .mySelf {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 100px;
 }
 
 .mySelf .aboutMySelf {
   width: 370px;
+  margin-right: 35px;
 }
 
 .mySelf .aboutMySelf h1 {

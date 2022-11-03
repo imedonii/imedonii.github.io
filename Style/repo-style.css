@@ -5,6 +5,7 @@
   .categories .categ img {
     height: 70px;
     width: 70px;
+    opacity: 0.5;
   }
 
   .categ .direc {
@@ -41,6 +42,7 @@
 
   .header .bio p {
     width: 510px;
+    right: 0;
   }
   .cardBox .showMore {
     margin-top: 0px;
@@ -48,6 +50,30 @@
 
   .projectsBox .box {
     margin-right: 0px;
+  }
+
+  /* ABOUT ME */
+
+  .header img {
+    opacity: 0.4;
+  }
+
+  .header .circle {
+    /* right: 0; */
+    opacity: 0.4;
+  }
+
+  .col textarea {
+    max-width: 220px;
+  }
+
+  .mySelf {
+    justify-content: space-between;
+  }
+
+  .mySelf .aboutMySelf {
+    width: 300px;
+    margin-right: 0;
   }
 }
 
@@ -373,6 +399,15 @@
 
   .grip {
     margin-top: 10px;
+  }
+
+  .header img {
+    opacity: 1;
+  }
+
+  .header .circle {
+    /* right: 0; */
+    opacity: 1;
   }
 }
 
