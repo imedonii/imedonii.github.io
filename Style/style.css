@@ -872,6 +872,7 @@ nav {
 .timeline .card img {
   border-radius: 50px;
   height: 200px;
+  object-fit: cover;
 }
 
 /* Removing the border if it is the first card */
