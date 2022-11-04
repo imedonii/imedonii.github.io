@@ -60,6 +60,10 @@ span {
   margin-left: 20px;
 }
 
+/* .main {
+  height: 69vh;
+} */
+
 /* Buttons style */
 .btn-primary {
   background-color: transparent;
@@ -346,12 +350,6 @@ nav {
   margin-bottom: -20px;
 }
 
-.content .text hr {
-  position: absolute;
-  width: 300px;
-  height: 5px;
-}
-
 .content .text p {
   margin-top: 50px;
   width: 400px;
@@ -394,11 +392,17 @@ nav {
   height: 15px;
 }
 
+.content .text hr {
+  position: absolute;
+  width: 300px;
+  height: 5px;
+}
+
 .catHr {
   position: relative;
-  left: 50px;
+  left: 5vw;
   height: 1px;
-  width: 510px;
+  max-width: 510px;
   opacity: 0.2;
 }
 
@@ -445,6 +449,7 @@ nav {
 .cardBox h1 {
   margin-left: 30px;
   margin-bottom: 0;
+  margin-top: 0;
   letter-spacing: 3px;
 }
 
@@ -541,7 +546,6 @@ nav {
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 100%;
   margin-left: 60px;
 }
 

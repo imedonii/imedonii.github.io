@@ -2,9 +2,23 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .categories {
+    width: 100%;
+    left: 0;
+  }
+
+  .categories .categ {
+    margin-left: 0;
+  }
+
   .categories .categ img {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     opacity: 0.5;
   }
 
@@ -13,12 +27,16 @@
   }
 
   .categories .categ h3 {
-    width: 200px;
+    width: 400px;
   }
 
   .catHr {
-    right: 0px;
-    width: 400px;
+    /* right: 0px; */
+    width: 100%;
+  }
+
+  .categories .categ:first-child {
+    margin-top: 20px;
   }
 
   .part-two p {
@@ -75,9 +93,25 @@
     width: 300px;
     margin-right: 0;
   }
+
+  .myPic {
+    display: none;
+  }
+
+  .cardBox p {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
+  /* .catHr {
+    display: none;
+  } */
+
+  .aboutMe .peopleTalks {
+    width: 90%;
+  }
+
   .burgerMenu {
     margin-top: 20px;
   }
