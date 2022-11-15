@@ -996,6 +996,7 @@ nav {
 }
 
 .projectsBox .infos img {
+  width: 320px;
   border-radius: 50px;
   height: 200px;
   object-fit: cover;
