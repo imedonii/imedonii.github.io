@@ -22,6 +22,20 @@ gripSquare.addEventListener('click', () => {
     for (let i = 0; i < squares.length; i++) {
         squares[i].style.color = '#ff6000';
     }
+    for (let i = 0; i < design.length; i++) {
+        design[i].classList.remove('hidden');
+    }
+    for (let i = 0; i < java.length; i++) {
+        java[i].classList.remove('hidden');
+    }
+    for (let i = 0; i < front.length; i++) {
+        front[i].classList.remove('hidden');
+    }
+    h31.classList.add('selectedCtg');
+    h32.classList.remove('selectedCtg');
+    h33.classList.remove('selectedCtg');
+    h34.classList.remove('selectedCtg');
+
     line.style.color = 'white';
     timeline.classList.add('hidden');
     projectsBox.classList.remove('hidden');
@@ -31,6 +45,15 @@ gripSquare.addEventListener('click', () => {
 line.addEventListener('click', () => {
     for (let i = 0; i < squares.length; i++) {
         squares[i].style.color = 'white';
+    }
+    for (let i = 0; i < design.length; i++) {
+        design[i].classList.remove('hidden');
+    }
+    for (let i = 0; i < java.length; i++) {
+        java[i].classList.remove('hidden');
+    }
+    for (let i = 0; i < front.length; i++) {
+        front[i].classList.remove('hidden');
     }
     line.style.color = '#ff6000';
     timeline.classList.remove('hidden');
