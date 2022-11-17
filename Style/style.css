@@ -1016,6 +1016,27 @@ nav {
   color: #ff6000;
 }
 
+.viewBox {
+  display: inline !important;
+  background-color: #ff6000;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+.live {
+  background-color: rgb(15, 15, 155);
+}
+
+.des {
+  background-color: rgb(4, 4, 59);
+}
+
+.viewBox a {
+  color: white !important;
+}
+
 /* ICONS GRIP */
 
 .grip {
