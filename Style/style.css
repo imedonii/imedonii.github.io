@@ -1044,6 +1044,7 @@ nav {
   justify-content: space-between;
 }
 
+/* 
 .gripIcon {
   display: flex;
   flex-direction: row;
@@ -1062,10 +1063,10 @@ nav {
 }
 
 .grip div i {
-  /* display: flex; */
+  display: flex;
   margin-right: -2px;
 }
 
 .grip .active {
   color: #ff6000;
-}
+} */
